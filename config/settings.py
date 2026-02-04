@@ -157,3 +157,7 @@ STORAGES = {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
+
+
+
+CSRF_TRUSTED_ORIGINS = ['https://juliadci.pythonanywhere.com', 'https://slimarius.pythonanywhere.com']
