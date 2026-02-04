@@ -158,9 +158,7 @@ STORAGES = {
     },
 }
 
-## For example, for a site URL is at 'web-production-3640.up.railway.app'
-## (replace the string below with your own site URL):
-CSRF_TRUSTED_ORIGINS = ['https://juliadci.pythonanywhere.com']
 
-# During development/for this tutorial you can instead set just the base URL
-# CSRF_TRUSTED_ORIGINS = ['https://*.pythonanywhere.com']
+
+
+CSRF_TRUSTED_ORIGINS = ['https://juliadci.pythonanywhere.com', 'https://slimarius.pythonanywhere.com']
