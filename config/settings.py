@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 DEBUG = os.environ.get('DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'https://slimarius.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'https://slimarius.pythonanywhere.com', 'https://juliadci.pythonanywhere.com/']
 
 
 # Application definition
